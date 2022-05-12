@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    margin: auto;
+    width: 90%;
+    margin-top: 50px;
+    height:100vh;
+    /* padding-top: 10%; */
+}
+
+.form-div{
+    width:min-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;   
+    height: auto;
+    border-radius: 10px;
+   box-shadow: 10px 10px 10px #ddd;
+    
+}
+
+.hero-img{
+    object-fit: cover;
+    border-radius: 10px;
+    width: auto;  
+}
+
+.hero-img svg{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.order-summary{
+    width: 60%;
+    padding-top: 20px;
+}
+.order-summary h1{
+    font-weight: 600;
+    padding-bottom: 10px;
+    color:hsl(223, 47%, 23%) ;
+}
+
+.order-summary p{
+    font-weight: 100;
+    font-size:15px;
+    color: hsl(224, 23%, 55%);
+}
+
+.billing{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 10px;
+    height: 80px;
+    padding-top: 10px;
+    margin-top: 15px;
+    
+}
+
+.payment-btn{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.payment-btn button{
+    height: 40px;
+    width:300px;
+    border-radius: 10px;
+    background-color:hsl(245, 75%, 52%) ;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+}
+.payment-btn button:hover{
+
+    background-color: hsl(224, 23%, 55%);
+}
+.link a{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%); 
+    
+}
+
+.cancel-order{
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+.cancel-order a{
+    text-decoration: none;
+    color:hsl(223, 47%, 23%); 
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.annual-plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan h4{
+padding-bottom: 5px;
+}
+
+
+
+
+
+
+/* body{
+    background-color:hsl(225, 100%, 98%) ; 
+    background-color:hsl(224, 23%, 55%);
+
+    background-color:hsl(223, 47%, 23%);
+    background-color:hsl(225, 100%, 94%);
+    background-color:hsl(245, 75%, 52%);
+} */
